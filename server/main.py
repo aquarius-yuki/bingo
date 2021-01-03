@@ -1,5 +1,6 @@
 import module_path
-
+import endpoint_main
+import endpoint_error
 from bottle import route, run
 
 @route('/')
